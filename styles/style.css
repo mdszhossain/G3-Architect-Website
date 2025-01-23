@@ -93,6 +93,37 @@
 }
 
 
+/* Feature Section Style */
+.feature-section {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature-image-container img {
+    margin: 10px;
+    width: 40%;
+}
+.feature-heading {
+    color: var(--default-black);
+    font-size: 2.813rem;
+}
+.light-heading {
+    color: var(--light-black);
+    font-weight: 500;
+}
+.orange-heading {
+    color: var(--orange-color);
+    font-weight: 700;
+}
+.feature-description {
+    line-height: 1.5rem;
+    color: var(--light-black);
+    margin: 25px 0px;
+}
+
+
 /* Extra Small Screen */
 @media (min-width: 320px) and (max-width: 479px) {
 
@@ -128,6 +159,28 @@
     .hero-image-container {
         height: 200px;
     }
+
+    /* Feature Section Style */
+    .feature-section {
+        flex-direction: column;
+    }
+    .feature-image-container img {
+        display: block;
+        width: 85%;
+        margin: 20px auto;
+    }
+    .feature-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .feature-description {
+        width: 95%;
+        margin: 25px auto;
+        text-align: center;
+    }
+    .feature-text-container {
+        text-align: center;
+    }
 }
 
 
@@ -161,6 +214,33 @@
     }
     .hero-image-container {
         height: 300px;
+    }
+
+    /* Feature Section Style */
+    .feature-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-image {
+        display: flex;
+        justify-content: space-around;
+    }
+    .bottom-image {
+        display: flex;
+        justify-content: space-around;
+    }
+    .feature-heading {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .feature-description {
+        width: 80%;
+        margin: 25px auto;
+        text-align: center;
+    }
+    .feature-text-container {
+        text-align: center;
     }
 }
 
@@ -196,6 +276,20 @@
     .hero-image-container {
         height: 400px;
     }
+
+    /* Feature Section Style */
+    .feature-heading {
+        font-size: 2rem;
+    }
+    .feature-description {
+        margin: 15px 0px;
+    }
+    .feature-image-container img {        
+        width: 40%;
+    }
+    .feature-section {
+        width: 80%;
+    }
 }
 
 
@@ -221,6 +315,11 @@
     }
     .hero-image-container {
         height: 500px;
+    }
+
+    /* Feature Section Style */
+    .feature-heading {
+        font-size: 2.5rem;
     }
 }
 
