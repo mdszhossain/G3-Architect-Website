@@ -195,6 +195,51 @@
     font-weight: 500;
 }
 
+/* Fact Section */
+.fact-section {
+    width: 80%;
+    margin: 0px auto;
+}
+.fact-heading {
+    font-size: 2.813rem;
+    color: var(--default-black);
+}
+.fact-description {
+    font-size: 1rem;
+    color: var(--light-black);
+    line-height: 1.5rem;
+    margin: 20px 0px;
+}
+.fact-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px 100px 0px;
+}
+.fact-box {
+    height: 250px;
+    width: 250px;
+    border: 1px solid var(--orange-color);
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fact-icon {
+    margin: 10px;
+}
+.fact-number {
+    font-size: 2.813rem;
+    font-weight: 600;
+    margin: 10px;
+}
+.fact-tagline {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--light-black);
+}
+
 
 
 /* Extra Small Screen */
@@ -297,6 +342,20 @@
     }
     .expand-feature-image-container img {
         width: 100%;
+    }
+
+    /* Fact Section Style */
+    .fact-boxes {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .fact-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .fact-description {
+        text-align: center;
     }
 }
 
@@ -403,6 +462,26 @@
     .expand-feature-image-container img {
         width: 80%;
     }
+
+    /* Fact Section Style */
+    .fact-boxes {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .fact-box {
+        height: 200px;
+        width: 200px;
+    }
+    .fact-number {
+        font-size: 2.5rem;
+    }
+    .fact-tagline {
+        font-size: 1rem;
+    }
+    .fact-heading {
+        font-size: 2.25rem;
+    }
 }
 
 
@@ -486,6 +565,27 @@
     .expand-feature-image-container img {
         width: 90%;
     }
+
+    /* Fact Section Style */
+    .fact-box {
+        width: 170px;
+        height: 170px;
+    }
+    .fact-number {
+        font-size: 2rem;
+    }
+    .fact-tagline {
+        font-size: 1rem;
+    }
+    .fact-heading {
+        font-size: 2.25rem;
+    }
+    .fact-icon {
+        width: 20%;
+    }
+    .fact-section {
+        width: 95%;
+    }
 }
 
 
@@ -550,6 +650,24 @@
         font-size: 1.25rem;
     }
     .expand-feature-image-container img {
+        width: 85%;
+    }
+
+    /* Fact Section Style */
+    .fact-box {
+        width: 200px;
+        height: 200px;
+    }
+    .fact-number {
+        font-size: 2.5rem;
+    }
+    .fact-tagline {
+        font-size: 1.25rem;
+    }
+    .fact-heading {
+        font-size: 2.5rem;
+    }
+    .fact-section {
         width: 85%;
     }
 }
